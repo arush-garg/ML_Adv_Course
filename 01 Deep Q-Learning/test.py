@@ -3,9 +3,9 @@ import numpy as np
 import tensorflow as tf
 
 
-model = tf.keras.models.load_model('model/dqn-model.keras')
+model = tf.keras.models.load_model('model/dqn-model-max.keras')
 test_env = gym.make("CartPole-v1", render_mode="human")
-for e in range(10):
+for e in range(1,11):
     state, _ = test_env.reset()
     done = False
     i = 0
