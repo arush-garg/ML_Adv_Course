@@ -1,0 +1,4 @@
+keras==3.8.0
+tensorflow==2.19.0
+tensorflow-metal==1.2.0 # If you are using a Mac with Apple Silicon
+requests==2.32.5
